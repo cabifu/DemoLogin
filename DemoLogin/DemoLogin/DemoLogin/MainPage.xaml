@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoLogin"
+             x:Class="DemoLogin.MainPage">
+
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="aJiApGC.jpg" Aspect="AspectFill"/>
+            <BoxView Color="AliceBlue"Opacity="0.8"/>
+            
+            <Grid>
+            
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Row="1" Padding="30,20">
+                    <Entry Placeholder="username" Placeholder="red"/>
+                    <Entry Placeholder="password" Placeholder="red" IsPassword="True"/>
+                    <Button Text="login" BackgroundColor="white" BorderRadius="20" TextColor="AliceBlue"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="create accouny" />
+                        <Label Text="forgot password?" HorizontalOptions="EndAndExpand"
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </Grid>
+           
+        
+    </ContentPage.Content>
+
+</ContentPage>
