@@ -7,7 +7,7 @@
     <ContentPage.Content>
         <Grid>
             <Image Source="aJiApGC.jpg" Aspect="AspectFill"/>
-            <BoxView Color="AliceBlue"Opacity="0.8"/>
+            <BoxView Color="AliceBlue" Opacity="0.8"/>
             
             <Grid>
             
@@ -17,12 +17,12 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <StackLayout Grid.Row="1" Padding="30,20">
-                    <Entry Placeholder="username" Placeholder="red"/>
-                    <Entry Placeholder="password" Placeholder="red" IsPassword="True"/>
+                    <Entry Placeholder="username" BackgroundColor="red"/>
+                    <Entry Placeholder="password" BackgroundColor="red" IsPassword="True"/>
                     <Button Text="login" BackgroundColor="white" BorderRadius="20" TextColor="AliceBlue"/>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="create accouny" />
-                        <Label Text="forgot password?" HorizontalOptions="EndAndExpand"
+                        <Label Text="forgot password?" HorizontalOptions="EndAndExpand"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>
